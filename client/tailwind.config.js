@@ -10,6 +10,15 @@ export default {
       top: ["focus", "valid"],
     },
   },
+  theme: {
+    extend: {
+      fontFamily: {
+        montserrat: ["Montserrat"],
+        lato: ["Lato"],
+        garamond: ["Garamond"],
+      },
+    },
+  },
   plugins: [],
 };
 
